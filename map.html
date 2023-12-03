@@ -86,7 +86,7 @@
 						"<p>" + feature.properties.jumlahulasan + "</p>" +
 						"<p>" + feature.properties.alamat + "</p>" +
 						"<p>" + feature.properties.jambuka + "</p>" +
-						"<p>" + feature.properties.jamtutup + "</p>" +
+						"<p>" + feature.properties.jamtutup + "</p>";
 						
 
 					layer.bindPopup(popupContent);
@@ -98,7 +98,7 @@
 				},
 			});
 
-			$.getJSON("https://script.google.com/macros/s/AKfycbxE6Mk67pUJPCcF8jQPQVXjGBwSMQshigoxnxG_e8ysySW3SMjuMHqRmbt1OJWyBYB38Q/exec", function (data) {
+			$.getJSON("https://script.google.com/macros/s/AKfycbwqg8blF3iwjDTgpIfT6qg0lsi_9e33hJAwdiglOnuUu4P6tYpnOqEVhk5OVi_IoE33/exec", function (data) {
 				point.addData(data);
 				map.addLayer(point);
 				map.fitBounds(point.getBounds());
