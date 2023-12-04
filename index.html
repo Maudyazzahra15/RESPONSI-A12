@@ -44,63 +44,65 @@
 								<div class="row">
 									<div class="col-sm">
 										<div class="form-group">
-											<label for="deskripsi"><strong>Rating</strong></label>
-											<textarea type="text" class="form-control text-primary" id="rating" name="rating"
-												placeholder="Rating" rows="3"></textarea>
+											<label for="nama"><strong>Rating</strong></label>
+											<input type="text" class="form-control text-primary" id="rating" name="rating"
+												placeholder="Rating" value="">
 										</div>
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-sm">
 										<div class="form-group">
-											<label for="deskripsi"><strong>Jumlah Ulasan</strong></label>
-											<textarea type="text" class="form-control text-primary" id="jumlahulasan" name="jumlahulasan"
-												placeholder="Jumlah Ulasan" rows="4"></textarea>
+											<label for="nama"><strong>Jumlah Ulasan</strong></label>
+											<input type="text" class="form-control text-primary" id="jumlahulasan" name="jumlahulasan"
+												placeholder="Jumlah Ulasan" value="">
 										</div>
 									</div>
 								</div>
+								
 								<div class="row">
 									<div class="col-sm">
 										<div class="form-group">
 											<label for="deskripsi"><strong>Alamat</strong></label>
-											<textarea type="text" class="form-control text-primary" id="alamat" name="alamat"
-												placeholder="Alamat" rows="5"></textarea>
+											<textarea type="text" class="form-control text-primary" id="alamat"
+												name="alamat" placeholder="Alamat" rows="5"></textarea>
 										</div>
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-sm">
 										<div class="form-group">
-											<label for="deskripsi"><strong>Jam Buka</strong></label>
-											<textarea type="text" class="form-control text-primary" id="jambuka" name="jambuka"
-												placeholder="Jam Buka" rows="6"></textarea>
+											<label for="nama"><strong>Jam Buka</strong></label>
+											<input type="text" class="form-control text-primary" id="jambuka" name="jambuka"
+												placeholder="Jam Buka" value="">
 										</div>
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-sm">
 										<div class="form-group">
-											<label for="deskripsi"><strong>Jam Tutup</strong></label>
-											<textarea type="text" class="form-control text-primary" id="jamtutup" name="jamtutup"
-												placeholder="Jam Tutup" rows="7"></textarea>
+											<label for="nama"><strong>Jam Tutup</strong></label>
+											<input type="text" class="form-control text-primary" id="jamtutup" name="jamtutup"
+												placeholder="Jam Tutup" value="">
 										</div>
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-sm">
 										<div class="form-group">
-											<label for="deskripsi"><strong>Kota</strong></label>
-											<textarea type="text" class="form-control text-primary" id="kota" name="kota"
-												placeholder="Kota" rows="8"></textarea>
+											<label for="nama"><strong>Kota</strong></label>
+											<input type="text" class="form-control text-primary" id="kota" name="kota"
+												placeholder="Kota" value="">
 										</div>
 									</div>
 								</div>
+								
 								<div class="row">
 									<div class="col-sm">
 										<div class="form-group">
 											<label for="deskripsi"><strong>Alamat Lengkap</strong></label>
-											<textarea type="text" class="form-control text-primary" id="alamatlengkap" name="alamatlengkap"
-												placeholder="Kota" rows="9"></textarea>
+											<textarea type="text" class="form-control text-primary" id="alamatlengkap"
+												name="alamatlengkap" placeholder="Alamat Lengkap" rows="9"></textarea>
 										</div>
 									</div>
 								</div>
@@ -108,22 +110,22 @@
 									<div class="col-sm">
 										<div class="form-group">
 											<label for="latitude"><strong>Latitude</strong></label>
-											<input type="text" class="form-control text-primary" id="latitude" name="latitude"
-												placeholder="Latitude" value="">
+											<input type="text" class="form-control text-primary" id="latitude"
+												name="latitude" placeholder="Latitude" value="">
 										</div>
 									</div>
 									<div class="col-sm">
 										<div class="form-group">
 											<label for="longitude"><strong>Longitude</strong></label>
-											<input type="text" class="form-control text-primary" id="longitude" name="longitude"
-												placeholder="Longitude" value="">
+											<input type="text" class="form-control text-primary" id="longitude"
+												name="longitude" placeholder="Longitude" value="">
 										</div>
 									</div>
 									<div class="col-sm-3">
 										<div class="form-group">
 											<label><strong>&nbsp;</strong></label><br>
-											<a href="#" type="button" class="btn btn-danger btn-block" id="mapbutton" onclick="mapCenter()"><i
-													class="fas fa-search-location"></i> Cari</a>
+											<a href="#" type="button" class="btn btn-danger btn-block" id="mapbutton"
+												onclick="mapCenter()"><i class="fas fa-search-location"></i> Cari</a>
 										</div>
 									</div>
 								</div>
@@ -135,12 +137,15 @@
 							<div class="card-footer">
 								<div class="row">
 									<div class="col">
-										<button type="button" class="btn btn-secondary" onclick="resetform()"><i class="fas fa-times-circle"></i> Reset</button>
+										<button type="button" class="btn btn-secondary" onclick="resetform()"><i
+												class="fas fa-times-circle"></i> Reset</button>
 									</div>
 									<div class="col text-right">
-										<button type="submit" class="btn btn-primary btn-simpan"><i class="fas fa-save"></i> Simpan</button>
+										<button type="submit" class="btn btn-primary btn-simpan"><i
+												class="fas fa-save"></i> Simpan</button>
 										<button class="btn btn-primary btn-loading d-none" type="button" disabled>
-											<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+											<span class="spinner-border spinner-border-sm" role="status"
+												aria-hidden="true"></span>
 											Loading...
 										</button>
 									</div>
